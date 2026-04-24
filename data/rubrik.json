@@ -1,0 +1,155 @@
+[
+  {
+    "pilar": "Workload Analysis",
+    "aspek": "Kuantitatif Beban Kerja",
+    "dimensi": "Volume Tugas",
+    "kode": "W1",
+    "indikator": "Jumlah Aktivitas",
+    "deskripsi": "Rincian tugas rutin, insidental, dan tambahan.",
+    "metode_pengukuran": "Input list pekerjaan per hari/minggu."
+  },
+  {
+    "pilar": "Workload Analysis",
+    "aspek": "Kuantitatif Beban Kerja",
+    "dimensi": "Durasi (Standard Time)",
+    "kode": "W2",
+    "indikator": "Waktu Pengerjaan",
+    "deskripsi": "Waktu ideal yang dibutuhkan untuk satu tugas.",
+    "metode_pengukuran": "Input angka (Menit/Jam per tugas)."
+  },
+  {
+    "pilar": "Workload Analysis",
+    "aspek": "Kuantitatif Beban Kerja",
+    "dimensi": "Frekuensi",
+    "kode": "W3",
+    "indikator": "Tingkat Pengulangan",
+    "deskripsi": "Seberapa sering tugas tersebut dilakukan.",
+    "metode_pengukuran": "Pilihan: Harian, Mingguan, Bulanan."
+  },
+  {
+    "pilar": "Workload Analysis",
+    "aspek": "Kuantitatif Beban Kerja",
+    "dimensi": "Tingkat Kesulitan",
+    "kode": "W4",
+    "indikator": "Beban Kognitif",
+    "deskripsi": "Tingkat kesulitan dan effort mental yang dikeluarkan.",
+    "metode_pengukuran": "Skala 1-5 (1 = Sangat Mudah, 5 = Sangat Sulit)."
+  },
+  {
+    "pilar": "Workload Analysis",
+    "aspek": "Kuantitatif Beban Kerja",
+    "dimensi": "Hasil WLA (Output)",
+    "kode": "W5",
+    "indikator": "Skor FTE",
+    "deskripsi": "Akumulasi beban kerja menjadi skor akhir.",
+    "metode_pengukuran": "Kalkulasi sistem: < 1 (Underload), 1-1.3 (Normal), > 1.3 (Overload)."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Autonomy",
+    "kode": "S1",
+    "indikator": "Kebebasan Bertindak",
+    "deskripsi": "Keleluasaan dalam mengambil keputusan dan cara kerja.",
+    "metode_pengukuran": "Saya memiliki kebebasan menentukan cara saya menyelesaikan pekerjaan."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Competence",
+    "kode": "S2",
+    "indikator": "Penguasaan Keahlian",
+    "deskripsi": "Perasaan mampu, efektif, dan mahir dalam bekerja.",
+    "metode_pengukuran": "Saya merasa sangat mampu menyelesaikan tugas-tugas saya."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Relatedness",
+    "kode": "S3",
+    "indikator": "Koneksi Sosial",
+    "deskripsi": "Kedekatan emosional dan dukungan dari atasan/tim.",
+    "metode_pengukuran": "Saya merasa menjadi bagian penting dari tim di tempat kerja."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Amotivation",
+    "kode": "S4",
+    "indikator": "Ketiadaan Niat",
+    "deskripsi": "Tidak adanya dorongan atau alasan untuk bekerja.",
+    "metode_pengukuran": "Saya tidak tahu mengapa saya masih melakukan pekerjaan ini."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "External Motivation",
+    "kode": "S5",
+    "indikator": "Reward & Punishment",
+    "deskripsi": "Bekerja semata-mata demi gaji atau takut sanksi.",
+    "metode_pengukuran": "Saya bekerja keras agar tidak ditegur oleh atasan."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Introjected Motivation",
+    "kode": "S6",
+    "indikator": "Ego & Gengsi",
+    "deskripsi": "Bekerja karena tekanan internal (gengsi, rasa bersalah).",
+    "metode_pengukuran": "Saya merasa bersalah jika tidak menyelesaikan pekerjaan tepat waktu."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Identified Motivation",
+    "kode": "S7",
+    "indikator": "Kesadaran Nilai",
+    "deskripsi": "Sadar bahwa pekerjaan tersebut penting untuk tujuannya.",
+    "metode_pengukuran": "Pekerjaan ini penting untuk mencapai tujuan karir saya."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Integrated Motivation",
+    "kode": "S8",
+    "indikator": "Identitas Diri",
+    "deskripsi": "Pekerjaan sudah sejalan dengan nilai dan prinsip hidupnya.",
+    "metode_pengukuran": "Pekerjaan ini mencerminkan siapa diri saya sebenarnya."
+  },
+  {
+    "pilar": "Self-Determination Theory (SDT)",
+    "aspek": "Kebutuhan Psikologis & Motivasi",
+    "dimensi": "Intrinsic Motivation",
+    "kode": "S9",
+    "indikator": "Kesenangan Murni",
+    "deskripsi": "Bekerja karena merasa enjoy, puas, dan tertarik.",
+    "metode_pengukuran": "Saya sangat menikmati proses mengerjakan tugas-tugas saya."
+  },
+  {
+    "pilar": "Utrecht Work Engagement Scale (UWES)",
+    "aspek": "Aspek Output Mental (Keterikatan)",
+    "dimensi": "Vigor",
+    "kode": "U1",
+    "indikator": "Energi & Resiliensi",
+    "deskripsi": "Tingkat energi mental, semangat, dan pantang menyerah.",
+    "metode_pengukuran": "Saat sedang bekerja, saya merasa penuh dengan energi."
+  },
+  {
+    "pilar": "Utrecht Work Engagement Scale (UWES)",
+    "aspek": "Aspek Output Mental (Keterikatan)",
+    "dimensi": "Dedication",
+    "kode": "U2",
+    "indikator": "Signifikansi Pekerjaan",
+    "deskripsi": "Rasa antusias, bangga, dan merasa pekerjaan bermakna.",
+    "metode_pengukuran": "Saya merasa bangga dengan pekerjaan yang saya lakukan."
+  },
+  {
+    "pilar": "Utrecht Work Engagement Scale (UWES)",
+    "aspek": "Aspek Output Mental (Keterikatan)",
+    "dimensi": "Absorption",
+    "kode": "U3",
+    "indikator": "Fokus & Flow",
+    "deskripsi": "Kondisi tenggelam dalam pekerjaan, sehingga lupa waktu.",
+    "metode_pengukuran": "Saya sering lupa waktu saat sedang asyik bekerja."
+  }
+]

@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Department {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  users User[]
+}
+
+model User {
+  id             Int             @id @default(autoincrement())
+  name           String
+  email          String          @unique
+  role           String          @default("employee")
+  department     Department      @relation(fields: [departmentId], references: [id])
+  departmentId   Int
+  assessmentLogs AssessmentLog[]
+  createdAt      DateTime        @default(now())
+}
+
+model AssessmentLog {
+  id              Int              @id @default(autoincrement())
+  user            User             @relation(fields: [userId], references: [id])
+  userId          Int
+  periodName      String
+  finalFteScore   Float
+  finalSdtIndex   Float
+  finalUwesIndex  Float
+  riskLevel       String
+  wlaItems        WlaItem[]
+  surveyResponses SurveyResponse[]
+  createdAt       DateTime         @default(now())
+}
+
+model WlaItem {
+  id              Int           @id @default(autoincrement())
+  assessment      AssessmentLog @relation(fields: [assessmentId], references: [id])
+  assessmentId    Int
+  taskName        String
+  duration        Float
+  frequency       Float
+  frequencyType   String
+  difficultyScale Int
+}
+
+model SurveyResponse {
+  id           Int           @id @default(autoincrement())
+  assessment   AssessmentLog @relation(fields: [assessmentId], references: [id])
+  assessmentId Int
+  questionCode String
+  rawValue     Int
+}
