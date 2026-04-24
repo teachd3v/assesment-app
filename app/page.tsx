@@ -9,7 +9,7 @@ export default function Home() {
           Employee Wellbeing & Assessment System
         </div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
-          ERIS Assessment Module
+          HERIS Assessment Module
         </h1>
         <p className="text-lg text-gray-500 max-w-xl mx-auto mb-8">
           Ukur beban kerja, motivasi, dan keterikatan karyawan secara ilmiah menggunakan
